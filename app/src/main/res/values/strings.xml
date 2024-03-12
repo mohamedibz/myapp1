@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">myapp1</string>
+    <string name="textview" translatable="false">Hola Mundo</string>
+    <string name="get_a_new_quotation">Get a new quotation</string>
+    <string name="about">About</string>
+    <string name="favourite_quotation">Favourite quotation</string>
+    <string name="new_quotation">new quotation</string>
+    <string name="favourites">favourites</string>
+    <string name="app1_by_mohamed_n_nmohamed_tanger2001_gmail_com_n_ndeveloped_for_dadm_2024">App1 by Mohamed \n\nmohamed.tanger2001@gmail.com \n\nDeveloped for DADM 2024 </string>
+    <string name="welcome">Hello %1s!,  Refresh to get a new quotation  (swipe down or options menu)</string>
+    <string name="anonymous" translatable="false">anonymous</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete_all_quotations">Delete all quotations</string>
+    <string name="settings">Settings</string>
+</resources>

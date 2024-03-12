@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myapp1</string>
+    <string name="get_a_new_quotation">Obtener una nueva cita</string>
+    <string name="about">sobre el desarrollador</string>
+    <string name="favourite_quotation">cita favorita</string>
+    <string name="new_quotation">nueva cita</string>
+    <string name="favourites">favoritos</string>
+    <string name="app1_by_mohamed_n_nmohamed_tanger2001_gmail_com_n_ndeveloped_for_dadm_2024">App1 de Mohamed  \nmohamed.tanger2001@gmail.com\nDesarrollado para DADM 2024</string>
+    <string name="welcome">Hola %1s!, \n Refresca para obtener una nueva cita \n (desliza para abajo o en el menú de opciones)</string>
+    <string name="refresh">refrescar</string>
+    <string name="delete_all_quotations">borrar todas las citas</string>
+    <string name="settings">ajustes</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newQuotationFragment">
+
+    <fragment
+        android:id="@+id/newQuotationFragment"
+        android:name="ui.newquotation.NewQuotationFragment"
+        android:label="NewQuotationFragment"
+        tools:layout="@layout/fragment_new_quotation"/>
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="ui.favourites.FavouritesFragment"
+        android:label="FavouritesFragment"
+        tools:layout="@layout/fragment_favourites">
+        <action
+            android:id="@+id/action_favouritesFragment_to_deleteAllDialogFragment"
+            app:destination="@id/deleteAllDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ui.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings"/>
+
+    <dialog
+        android:id="@+id/aboutDialogFragment"
+        android:name="ui.about.AboutDialogFragment"
+        android:label="AboutDialogFragment"
+        tools:layout="@layout/fragment_about"/>
+    <dialog
+        android:id="@+id/deleteAllDialogFragment"
+        android:name="ui.favourites.DeleteAllDialogFragment"
+        android:label="DeleteAllDialogFragment" />
+</navigation>
